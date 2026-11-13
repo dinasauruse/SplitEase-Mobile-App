@@ -1,0 +1,20 @@
+name: splitease
+description: SplitEase - Split bills, stress less. Individual order-based restaurant bill splitter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  # Semantics(identifier:) (used for Appium/Katalon locators) needs Flutter 3.19+ / Dart 3.3+.
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
